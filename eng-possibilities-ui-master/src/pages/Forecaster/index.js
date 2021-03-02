@@ -7,7 +7,8 @@ const ForecasterHome = () => {
        <div>
             <h3>Investment Forecaster</h3>
             <TimeSeries />
-          </div>
+            <h5 style={{marginTop: 10}}>Investment Allocations</h5>
+        </div>
     </>
   );
 };
