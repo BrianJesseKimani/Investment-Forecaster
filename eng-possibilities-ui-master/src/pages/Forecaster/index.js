@@ -1,11 +1,12 @@
 import React from "react";
+import TimeSeries from "./TimeSeries";
 
 const ForecasterHome = () => {
   return (
     <>
        <div>
             <h3>Investment Forecaster</h3>
-            <p>Logic goes here</p>
+            <TimeSeries />
           </div>
     </>
   );
