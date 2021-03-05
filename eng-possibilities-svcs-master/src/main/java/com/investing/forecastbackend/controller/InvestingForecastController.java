@@ -28,7 +28,7 @@ public class InvestingForecastController {
     
     
 
-    @GetMapping
+    @GetMapping("/options")
     public ResponseEntity<List<InvestmentDetail>> getInvestmentOptions() {
         log.info("Received request to retrieve investment options");
         return ResponseEntity.ok(service.getInvestmentOptions());
